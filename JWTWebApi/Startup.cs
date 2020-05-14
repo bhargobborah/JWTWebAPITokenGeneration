@@ -1,20 +1,11 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using JWTWebApi.Controllers;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using System.Runtime.Serialization.Json;
-using System.IdentityModel.Tokens.Jwt;
-using Microsoft.AspNetCore.Authentication.OAuth;
 using Microsoft.IdentityModel.Tokens;
-using JWTWebApi.Controllers;
+using System;
 
 namespace JWTWebApi
 {
