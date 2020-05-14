@@ -32,7 +32,7 @@ namespace JWTWebApi
         {
             services.AddControllers();
 
-
+            /* JWT Bearer token configuration */
             services.AddAuthentication(options =>
             {
                 options.DefaultAuthenticateScheme = "JwtBearer";
